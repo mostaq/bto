@@ -1,0 +1,185 @@
+@media only screen and (min-width: 1800px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        max-width: 1691px;
+    }
+}
+
+@media only screen and (max-width: 1700px) and (min-width: 1024px)  {
+
+}
+
+@media only screen and (max-width: 1365px) { 
+
+}
+
+@media only screen and (max-width: 1024px) { 
+
+}
+
+@media only screen and (min-width: 991px) {
+    /*Sub Menu*/
+    ul.sub-menu {
+        position: absolute;
+        z-index: 9;
+        width: 230px;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        visibility: hidden;
+        top: 60px;
+    }
+    .has-submenu:hover .sub-menu {
+        opacity: 1;
+        visibility: visible;
+        top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px) { 
+    .main-menu-area ul li a {
+        padding: 13px 10px;
+    }
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    /*Mobile Menu*/
+    .mobile-menu-backdrop{
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: .4s;
+        width: 100%;
+        background: #151522;
+        z-index: -1;
+    }
+    .mobile-menu-backdrop.active{
+        opacity: 0.6;
+        visibility: visible;
+        z-index: 99;
+    }
+    header .mobile-menu-trigger.active span {
+        background: #ef233c;
+    }
+    header .mobile-menu-trigger {
+        width: 30px;
+        margin-right: auto;
+        margin-left: 0;
+        height: 30px;
+        top: 15px;
+        position: relative;
+        float: left;
+    }
+    header .mobile-menu-trigger span {
+        display: inline-block;
+        width: 30px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        top: 0;
+        transition: .4s;
+        left: 0;
+    }
+    header .mobile-menu-trigger span:nth-child(2) {
+        top: 8px;
+    }
+    
+    header .mobile-menu-trigger span:nth-child(3) {
+        top: 17px;
+    }
+    header .main-menu-area {
+        position: fixed;
+        left: -280px;
+        top: 0;
+        z-index: 999;
+        background: #231F20;
+        width: 280px;
+        height: 100%;
+        transition: .4s;
+        opacity: 0;
+        visibility: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
+    header .main-menu-area li {
+        display: block;
+        text-align: left;
+    }
+    
+    header .main-menu-area a {
+        margin: 0!important;
+        padding: 10px 15px!important;
+        display: block!important;
+    }
+    
+    header .main-menu > li > a {
+        border-bottom: 1px solid #202036;
+    }
+    
+    header .main-menu-area.active {
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    header .mobile-menu-trigger.active span:nth-child(3) {
+        transform: rotate(45deg);
+        top: 8px;
+    }
+    header .mobile-menu-trigger.active span:nth-child(1) {
+        transform: rotate(45deg);
+        top: 8px;
+    }
+    
+    header .mobile-menu-trigger.active span:nth-child(2) {
+        transform: rotate(135deg);
+    }
+    header ul.main-menu.text-center {
+        text-align: left!important;
+    }
+    ul.sub-menu {
+        width: calc(100% - 30px);
+        margin: 0 auto;
+        text-align: right;
+        display: none;
+    }
+    
+    ul.sub-menu::before {
+        display: none;
+    }
+    
+    header .main-menu-area li .sub-menu a {
+        text-align: right;
+    }
+    span.sub-menu-trigger {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+        position: absolute;
+        right: 0;
+        top: 8px;
+        transition: .3s;
+    }
+    span.sub-menu-trigger.active {
+        transform: rotate(90deg);
+    }
+}
+
+
+@media only screen and (max-width: 767px) { 
+   
+}
+
+
+/*Very Small Mobile Device*/
+@media only screen and (max-width: 350px) { 
+
+}
