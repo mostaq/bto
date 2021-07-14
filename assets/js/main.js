@@ -26,7 +26,18 @@
       });
     }
 
-
+  //Post SLider
+  if ($('.article-slider').length > 0) {
+    $('.article-slider').owlCarousel({
+      loop: true,
+      margin: 0,
+      items: 2,
+      dots: false,
+      autoplay: true,
+      nav: true,
+      navText: ["<span class='prev-article'>前の記事</span>","<span class='next-article'>次の記事</span>"]
+    });
+  }
 
 
 
