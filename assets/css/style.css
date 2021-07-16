@@ -1977,6 +1977,9 @@ h4.config-change-title {
     padding: 35px 0;
     border-top: 2px solid #707070;
 }
+.sidear-box-cpu{
+    border-bottom: 1px solid #707070;
+}
 
 .search-order {
     padding-bottom: 35px;
@@ -2037,7 +2040,7 @@ h4.config-change-title {
 }
 
 .noUi-handle.noUi-handle-upper {
-    right: 1px;
+    right: 0px;
 }
 .filter-icon {
     margin-right: 15px;
@@ -2053,13 +2056,13 @@ h4.config-change-title {
     width: calc(100% - 52px);
 }
 
-.sidebar-box .form-check {
+.sidebar-box .form-check, .search-side-accordion .form-check {
     font-size: 13px;
     margin-bottom: 10px;
     color: #434343;
 }
 
-.sidebar-box .form-check-input {
+.sidebar-box .form-check-input, .search-side-accordion .form-check-input {
     border-radius: 0px;
     padding: 0;
     border: 0px;
@@ -2070,8 +2073,47 @@ h4.config-change-title {
     margin-right: 12px;
 }
 
-.sidebar-box .form-check-input:checked {
+.sidebar-box .form-check-input:checked, .search-side-accordion .form-check-input:checked {
     background-color: #4D4D4D;
+}
+.search-side-accordion {
+    margin-top: 35px;
+}
+
+.search-side-accordion button[data-bs-toggle="collapse"] {
+    font-size: 17px;
+    font-weight: bold;
+    color: #434343;
+}
+
+.search-side-accordion .accordion-item {
+    border-bottom: 1px solid #707070;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.search-side-accordion .accordion-body {
+    padding-bottom: 0;
+    padding-top: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search-side-accordion .accordion-item button.archive-btn::after {
+    border: solid #434343;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 14px;
+    height: 14px;
+    top: 2px;
+    right: 5px;
+}
+.search-side-accordion .accordion-item button.archive-btn[aria-expanded="true"]::after {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+.search-side-accordion .form-check{
+    padding-left: 0px;
 }
 
 /*******************
