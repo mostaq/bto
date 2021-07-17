@@ -22,7 +22,18 @@
         autoplay: false,
         nav: true,
         navText: ['＜', '＞'],
-        slideBy: 2
+        slideBy: 2,
+        responsive:{
+          0:{
+              items:1,
+              nav:true
+          },
+          1350:{
+              items:2,
+              nav:true,
+              loop:false
+          }
+      }
       });
     }
 

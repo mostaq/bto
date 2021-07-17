@@ -4,16 +4,146 @@
     }
 }
 
-@media only screen and (max-width: 1700px) and (min-width: 1024px)  {
-
+@media only screen and (max-width: 1799px) and (min-width: 1350px)  {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        max-width: 1320px;
+    }
+    .campaign-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .copyright-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .new-model-slider .owl-nav button {
+        left: 0px;
+    }
+    .new-model-slider .owl-nav button.owl-next {
+        right: 0;
+    }
+    .page-sidebar-content.search-result-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .ranking-label {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 25px;
+    }    
+    .new-model-content .new-model-spec li {
+        margin: 5px 0;
+    }
+    .pick-up-list {
+        margin-right: 0;
+    }
+    .page-sidebar-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .info-card-links a {
+        font-size: 22px;
+    }
+    .builder-pc-price .price {
+        font-size: 38px;
+        padding-left: 10px;
+    }
+    
+    .builder-pc-price .unit {
+        font-size: 26px;
+        margin-left: 10px;
+    }
+    
+    .builder-pc-spec {
+        font-size: 11px;
+    }
+    
+    .important-features .features-box {
+        margin: 0 1px;
+    }
+    .modal-dialog.modal-xl {
+        max-width: 95%;
+    } 
+    .config-change-price span {
+        font-size: 30px;
+    }
+    .new-model-content .new-model-spec li span {
+        width: 85px;
+    }
+    .single-pc-item .new-model-content {
+        margin-left: -12px;
+    }
+    .new-model-slider .new-model-content .new-model-spec li span {
+        width: 95px;
+    }   
 }
 
-@media only screen and (max-width: 1365px) { 
-
+@media only screen and (max-width: 1349px) { 
+    .pc-item-thumb {
+        width: 100%;
+    }
+    
+    .pc-item-thumb .single-pc-item {
+        max-width: 100%;
+        width: 100%;
+    }
+    .col-lg-4.pc-item-thumb {
+        width: 50%;
+    }
+    .pick-up-list {
+        margin-right: 0px;
+    }
+    .info-card-links a {
+        font-size: 20px;
+    }
+    .sidebar-menu h3 {
+        font-size: 20px;
+    }
+    .new-model-slider .owl-nav button {
+        left: 0px;
+    }
+    .new-model-slider .owl-nav button.owl-next {
+        right: 0;
+    }
+    .campaign-item img {
+        height: 100%;
+    }
+    .builder-w-50 {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .modal-dialog.modal-xl{
+        max-width: 95%;
+    }
+    .config-change-price span {
+        font-size: 28px;
+    }
 }
 
-@media only screen and (max-width: 1024px) { 
-
+@media only screen and (max-width: 1200px) { 
+    .footer-copyright {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .footer-widget {
+        margin: 20px 0;
+    }
+    .page-sidebar-content {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .main-menu-area {
+        margin-left: 30px;
+    }
+    .cart-item-total-price .price {
+        font-size: 17px;
+    }
+    .config-change-price span {
+        font-size: 21px;
+    }
 }
 
 @media only screen and (min-width: 991px) {
@@ -170,6 +300,19 @@
     }
     span.sub-menu-trigger.active {
         transform: rotate(90deg);
+    }
+
+    /*Common CSS*/
+    .footer-bottom {
+        padding-bottom: 50px;
+    }
+    
+    .footer-copyright {
+        flex-direction: column;
+    }
+    
+    .footer-copyright img {
+        margin-bottom: 10px;
     }
 }
 
