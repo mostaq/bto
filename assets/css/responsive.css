@@ -81,6 +81,11 @@
     }   
 }
 
+@media only screen and (min-width: 1200px) { 
+    footer.site-footer .row .col-xl {
+        flex: 1 0 0%;
+    }
+}
 @media only screen and (max-width: 1349px) { 
     .pc-item-thumb {
         width: 100%;
