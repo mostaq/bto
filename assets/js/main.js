@@ -33,7 +33,7 @@
               nav:true,
               loop:false
           }
-      }
+        }
       });
     }
 
@@ -46,7 +46,15 @@
       dots: false,
       autoplay: true,
       nav: true,
-      navText: ["<span class='prev-article'>前の記事</span>","<span class='next-article'>次の記事</span>"]
+      navText: ["<span class='prev-article'>前の記事</span>","<span class='next-article'>次の記事</span>"],
+      responsive:{
+        0:{
+            items:1,
+        },
+        991:{
+            items:2,
+        }
+      }
     });
   }
 

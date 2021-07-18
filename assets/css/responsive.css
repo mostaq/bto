@@ -144,6 +144,13 @@
     .config-change-price span {
         font-size: 21px;
     }
+    .page-sidebar-content.search-result-content{
+        padding-right: 12px;
+    }
+    
+    .ranking-pc-item .new-model-content, .new-pc-item .new-model-content{
+        margin-left: -10px;
+    }
 }
 
 @media only screen and (min-width: 991px) {
@@ -175,6 +182,12 @@
 
 @media only screen and (max-width: 991px) {
     /*Mobile Menu*/
+    header.site-header {
+        padding: 5px 0;
+    }
+    .main-menu-area{
+        margin-left: 0;
+    }
     .mobile-menu-backdrop{
         position: fixed;
         left: 0;
@@ -201,9 +214,9 @@
         margin-right: auto;
         margin-left: 0;
         height: 30px;
-        top: 15px;
+        top: 22px;
         position: relative;
-        float: left;
+        float: right;
     }
     header .mobile-menu-trigger span {
         display: inline-block;
@@ -228,7 +241,7 @@
         top: 0;
         z-index: 999;
         background: #231F20;
-        width: 280px;
+        width: 250px;
         height: 100%;
         transition: .4s;
         opacity: 0;
@@ -314,15 +327,325 @@
     .footer-copyright img {
         margin-bottom: 10px;
     }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .bto-high-pc-box {
+        max-width: 100%;
+        margin: 12px 0;
+    }
+    .see-more-ranking-btn {
+        margin-right: 0;
+        font-size: 25px;
+    }
+    a.footer-btn {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+    .page-left-sidebar.search-result-left {
+        width: calc(100% - 24px);
+        max-width: 100%;
+        margin-left: 12px;
+        margin-top: 12px;
+    }
+    .search-products-items .pc-item-thumb {
+        width: 50%;
+    }
+    
+    .search-products-items .pc-item-thumb .single-pc-item {
+        padding: 15px;
+    }
+    .bto-tab-btn {
+        max-width: 240px;
+        margin: 0 12px;
+    }
+    .new-pc-item {
+        padding: 15px;
+    }
+    
+    .ranking-pc-item .new-model-content, .new-pc-item .new-model-content {
+        margin-left: 0;
+    }
+    .blog-img {
+        margin-bottom: 15px;
+    }
+    .single-blog-box {
+        padding-right: 0;
+    }
+    .article-details {
+        padding-right: 0;
+    }
+    .article-slider::after{
+        display: none;
+    }
+    .page-left-sidebar {
+        width: calc(100% - 24px);
+        margin-left: 12px;
+        margin-top: 12px;
+    }
+    .cart-item-quantity {
+        text-align: left;
+        margin: 10px 0;
+    }
+    
+    .cart-item-price.cart-item-total-price {
+        text-align: left;
+    }
+    
+    .bto-sm-select {
+        width: 100%;
+    }
+    
+    .product-delivery-date .bto-sm-select {
+        width: 100%;
+    }
+    .cpu-row-desc {
+        margin-top: 20px;
+    }
+    
+    .config-change-buttons .full-width-btn {
+        margin: 12px 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .tbl-product-name {
+        font-size: 22px;
+    }
+    .final-check-buttons .full-width-btn {
+        max-width: 100%;
+        margin: 10px 0;
+    }
 }
 
 
 @media only screen and (max-width: 767px) { 
-   
+    .site-logo img {
+        max-width: 120px;
+    }
+    header .mobile-menu-trigger{
+        top: 15px;
+    }
+    .section-title h2 {
+        font-size: 25px;
+        line-height: 1.4;
+    }
+    
+    .pc-box-title h3 {
+        padding-left: 0;
+        font-size: 20px;
+    }
+    
+    .pc-box-title p {
+        font-size: 10px;
+    }
+    
+    .search-by-items a img {
+        width: 100%;
+        height: auto;
+        margin: 12px 0;
+    }
+    
+    .search-by-box h2 {
+        font-size: 25px;
+    }
+    
+    .single-pc-item {
+        padding: 15px;
+    }
+    
+    .single-pc-item .full-width-btn {
+        margin: 5px 0;
+    }
+    
+    .new-model-slider .owl-dots button {
+        width: 30px;
+    }
+    
+    .new-model-slider .owl-nav button {
+        font-size: 30px!important;
+    }
+    
+    .campaign-content {
+        padding: 15px;
+    }
+    .col-lg-4.pc-item-thumb, .search-products-items .pc-item-thumb {
+        width: 100%;
+    }
+    
+    .see-more-ranking-btn {
+        font-size: 22px;
+        display: block;
+        text-align: left;
+    }
+    .page-left-sidebar {
+        padding: 20px;
+    }
+    .bto-tab-btn {
+        width: 100%;
+        max-width: 100%;
+        margin: 12px 0;
+    }
+    
+    .ranking-product-tab-wrapper li {
+        width: 100%;
+    }
+    
+    .ranking-product-tab-wrapper .nav-pills {
+        margin-bottom: 50px;
+    }
+    
+    .ranking-pc-item .new-model-content, .new-pc-item .new-model-content {
+        margin-left: 0;
+    }
+    .blog-details, .blog-archive {
+        margin-top: 50px;
+    }
+    .article-top-desc {
+        padding-left: 0;
+    }
+    .article-description img.float-start{
+        max-width: 100%;
+    }
+    .article-item{
+        padding: 0px;
+    }
+    .bto-card .card-label {
+        min-width: 100%;
+    }
+    
+    .bto-card-content {
+        padding: 15px;
+    }
+    
+    .info-card-links a {
+        margin: 5px 0;
+    }
+    .faq-to-ques-ans .accordion-body {
+        padding: 15px;
+        font-size: 15px;
+    }
+    
+    .question-text, .ans-text {
+        width: calc(100% - 40px);
+        padding: 12px;
+    }
+    
+    .faq-label {
+        width: 40px;
+    }
+    
+    .question-text, .ans-text {
+        font-size: 15px!important;
+    }
+    .cart-process-button .process-btn {
+        min-width: 100%;
+        font-size: 30px;
+        padding: 18px 30px;
+    }
+    
+    .order-info-label {
+        position: inherit;
+    }
+    
+    .order-info-text .info-row {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    
+    .bto-card .card-label {padding-left: 15px;}
+    
+    .bto-card-buttons .bto-sm-btn {
+        margin: 5px 0;
+        width: 100%;
+    }
+    
+    .field-text {
+        min-width: 50px;
+    }
+    .order-confrimation-info .order-number {
+        font-size: 25px;
+        margin-left: 0;
+    }
+    
+    .checkout-confirmation-box {
+        padding: 30px 15px;
+    }
+    .builder-config {
+        padding: 15px 0;
+    }
+    
+    .cpu-row-action {
+        margin-top: 15px;
+    }
+    
+    .builder-pc-spec {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    
+    .builder-pc-price .price {
+        font-size: 30px;
+    }
+    
+    .builder-pc-price .unit {
+        font-size: 24px;
+    }
+    
+    .builder-pc-price {
+        margin: 12px 0;
+    }
+    
+    .config-modal-top .cpu-single-row {
+        padding: 15px;
+    }
+    
+    .cpu-row-desc h3 {
+        font-size: 25px;
+    }
+    
+    h4.config-change-title {
+        font-size: 25px;
+    }
+    
+    .config-modal-bottom {
+        padding: 30px 15px;
+    }
+    
+    .config-change-content {
+        font-size: 20px;
+    }
+    
+    .config-change-buttons .full-width-btn {
+        font-size: 20px;
+    }
+    .composition-tables table {
+        min-width: 640px;
+    }
+    
+    .tbl-model-name {
+        font-size: 18px;
+    }
+    
+    .composition-tables table {
+        font-size: 15px;
+    }
+    
+    .final-check-buttons .full-width-btn {
+        font-size: 19px;
+    }
 }
 
 
 /*Very Small Mobile Device*/
 @media only screen and (max-width: 350px) { 
-
+    .single-pc-item {
+        padding: 10px;
+    }
+    
+    .new-model-content .new-model-spec {
+        font-size: 10px;
+    }
+    .cart-process-button .process-btn {
+        font-size: 25px;
+    }
 }
