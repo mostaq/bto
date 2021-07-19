@@ -1,15 +1,3 @@
-/*Theme font-face*/
-@font-face {
-    font-family: 'Meiryo';
-    src: url('../fonts/Meiryo.eot');
-    src: url('../fonts/Meiryo.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Meiryo.woff2') format('woff2'),
-        url('../fonts/Meiryo.woff') format('woff'),
-        url('../fonts/Meiryo.ttf') format('truetype'),
-        url('../fonts/Meiryom.svg#Meiryo') format('svg');
-    font-display: swap;
-}
-
 body {
     font-family: 'Meiryo', sans-serif;
     color: #fff;
@@ -18,6 +6,7 @@ body {
     font-weight: normal;
     background: #262626;
 }
+button, input, optgroup, select, textarea{font-family: 'Meiryo', sans-serif;}
 h1,
 h2,
 h3,
@@ -1864,6 +1853,7 @@ h4.config-change-title {
     border-bottom: 1px solid #515151;
     margin-bottom: 15px;
     padding-bottom: 15px;
+    font-family: 'Meiryo UI', sans-serif;
 }
 .pick-up-sidebar.pick-sidebar {
     margin-bottom: 100px;
