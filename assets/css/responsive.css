@@ -48,12 +48,12 @@
         font-size: 22px;
     }
     .builder-pc-price .price {
-        font-size: 38px;
+        font-size: 35px;
         padding-left: 10px;
     }
     
     .builder-pc-price .unit {
-        font-size: 26px;
+        font-size: 24px;
         margin-left: 10px;
     }
     
@@ -414,7 +414,7 @@
         max-width: 100%;
     }
     .tbl-product-name {
-        font-size: 22px;
+        font-size: 20px;
     }
     .final-check-buttons .full-width-btn {
         max-width: 100%;
